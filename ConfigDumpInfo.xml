@@ -4,7 +4,7 @@
 		<Metadata name="CommonCommand.VK_ЗапуститьЛог" id="0179736d-b217-4a91-8f07-3cc7ff2c9a11" configVersion="d63f978d1aa0b338618a3960b1dee3bc3d11365b"/>
 		<Metadata name="CommonCommand.VK_ЗапуститьЛог.CommandModule" id="0179736d-b217-4a91-8f07-3cc7ff2c9a11.2" configVersion="f8c886e47f25324f96ccd1c1da95ea55e656c2e2"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="a803c92951c0c62d4fc12da48c19a5f2653f6d27"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="c4223210b8706be38115459b9bdb51411984d14b"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="30c59e6c396edef9b44ee9f56f799038676437c6"/>
 		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="36782f04333b939c32c64cc77af6b1735895940b"/>
 		<Metadata name="HTTPService.VKBot" id="743d9818-0bc3-470e-933a-2b46d5e457cb" configVersion="270c416f324c92211df9a9d1936c8c9410bbb382">
 			<Metadata name="HTTPService.VKBot.URLTemplate.documents.Method.GET" id="26151a03-17eb-47b5-8fd0-6cdd3ed01fc7"/>
