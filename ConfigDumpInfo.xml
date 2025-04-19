@@ -1,11 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
 		<Metadata name="CommonCommand.VK_ЗапуститьЛог" id="0179736d-b217-4a91-8f07-3cc7ff2c9a11" configVersion="d63f978d1aa0b338618a3960b1dee3bc3d11365b"/>
-		<Metadata name="CommonCommand.VK_ЗапуститьЛог.CommandModule" id="0179736d-b217-4a91-8f07-3cc7ff2c9a11.2" configVersion="16014ef6651fb6fce45a18f5fa7c637ae5da76ae"/>
+		<Metadata name="CommonCommand.VK_ЗапуститьЛог.CommandModule" id="0179736d-b217-4a91-8f07-3cc7ff2c9a11.2" configVersion="028586ee2399310ff45738db8e05d04824f032c4"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="a803c92951c0c62d4fc12da48c19a5f2653f6d27"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="1604d27c36732dcf934e270814607bf2aa657af3"/>
-		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="871538fe8b1c3a80237c86eaeb44df9f1f41a450"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="c24ed386bc7620a20804185018c277e6913067ab"/>
+		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="2a433fb60c41ba4dc18fe3b26bc9a461e0f58b3f"/>
+		<Metadata name="HTTPService.VKBot" id="743d9818-0bc3-470e-933a-2b46d5e457cb" configVersion="270c416f324c92211df9a9d1936c8c9410bbb382">
+			<Metadata name="HTTPService.VKBot.URLTemplate.documents.Method.GET" id="26151a03-17eb-47b5-8fd0-6cdd3ed01fc7"/>
+			<Metadata name="HTTPService.VKBot.URLTemplate.documents.Method.POST" id="aeea7e2e-7d87-4e6d-8759-55eff8bab753"/>
+			<Metadata name="HTTPService.VKBot.URLTemplate.documents" id="dde8f4f0-2dc9-46ce-b4e8-b128a0f3e35c"/>
+		</Metadata>
+		<Metadata name="HTTPService.VKBot.Module" id="743d9818-0bc3-470e-933a-2b46d5e457cb.0" configVersion="95415e3254a62e2da30f158946cc78f0283a6d2e"/>
 		<Metadata name="Language.Русский" id="175a1502-504b-4661-b74f-1d071f23e441" configVersion="c237179897407e41b56ee0678cc7015b003a0400"/>
 		<Metadata name="Role.VK_ОсновнаяРоль" id="fdc7e5c2-e081-4aa8-9629-8c155d4ae151" configVersion="d3a7ea9cda13883bec9f8ba579e90918acd965a0"/>
 	</ConfigVersions>
