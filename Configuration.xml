@@ -68,7 +68,6 @@
 			<Role>VK_ОсновнаяРоль</Role>
 			<CommonModule>VK</CommonModule>
 			<HTTPService>VKBot</HTTPService>
-			<CommonCommand>VK_ЗапуститьЛог</CommonCommand>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
