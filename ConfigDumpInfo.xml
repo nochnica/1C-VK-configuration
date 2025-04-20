@@ -1,16 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="CommonForm.VK_AccessToken" id="5032892d-c997-4675-a216-24cc91bc6abb" configVersion="fb73eab103976797fd14ccaf556c1826dad278dc"/>
+		<Metadata name="CommonForm.VK_AccessToken.Form" id="5032892d-c997-4675-a216-24cc91bc6abb.0" configVersion="1ac946a49b0555fdd6acca075716948d516e9a60"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="a803c92951c0c62d4fc12da48c19a5f2653f6d27"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="96ef450f8e624c40e632bf95d1423faac01af9fd"/>
-		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="fff80fbd989bed929c8e3ea2a1bd8615d01dd5bf"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="b525af02b6a2168839306955410ae98acd1be8e0"/>
+		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="3c2d6ef8cac2da26416255ab96dafadf3edd2d87"/>
+		<Metadata name="Constant.Токен" id="bc199727-4265-4f97-936a-a97d24b0c9bb" configVersion="3bfd45d8686627a075c11f0aa4bd541e82b247c2"/>
 		<Metadata name="HTTPService.VKBot" id="743d9818-0bc3-470e-933a-2b46d5e457cb" configVersion="270c416f324c92211df9a9d1936c8c9410bbb382">
 			<Metadata name="HTTPService.VKBot.URLTemplate.documents.Method.GET" id="26151a03-17eb-47b5-8fd0-6cdd3ed01fc7"/>
 			<Metadata name="HTTPService.VKBot.URLTemplate.documents.Method.POST" id="aeea7e2e-7d87-4e6d-8759-55eff8bab753"/>
 			<Metadata name="HTTPService.VKBot.URLTemplate.documents" id="dde8f4f0-2dc9-46ce-b4e8-b128a0f3e35c"/>
 		</Metadata>
-		<Metadata name="HTTPService.VKBot.Module" id="743d9818-0bc3-470e-933a-2b46d5e457cb.0" configVersion="58ffa6efa39cf01af53e0a3200facc441a1a1305"/>
+		<Metadata name="HTTPService.VKBot.Module" id="743d9818-0bc3-470e-933a-2b46d5e457cb.0" configVersion="e72aa1e25e2f69e6865f240e95dcf5c27cee3cfa"/>
 		<Metadata name="Language.Русский" id="175a1502-504b-4661-b74f-1d071f23e441" configVersion="c237179897407e41b56ee0678cc7015b003a0400"/>
-		<Metadata name="Role.VK_ОсновнаяРоль" id="fdc7e5c2-e081-4aa8-9629-8c155d4ae151" configVersion="d3a7ea9cda13883bec9f8ba579e90918acd965a0"/>
+		<Metadata name="Subsystem.VK_Функции" id="9596aa99-af45-47fa-9768-988ad5215739" configVersion="e89fcc49e1d77dd66771d4099dcd196e66c18ebe"/>
+		<Metadata name="Subsystem.VK_Функции.CommandInterface" id="9596aa99-af45-47fa-9768-988ad5215739.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
