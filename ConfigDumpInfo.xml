@@ -4,7 +4,7 @@
 		<Metadata name="CommonForm.VK_AccessToken" id="5032892d-c997-4675-a216-24cc91bc6abb" configVersion="fb73eab103976797fd14ccaf556c1826dad278dc"/>
 		<Metadata name="CommonForm.VK_AccessToken.Form" id="5032892d-c997-4675-a216-24cc91bc6abb.0" configVersion="1ac946a49b0555fdd6acca075716948d516e9a60"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="a803c92951c0c62d4fc12da48c19a5f2653f6d27"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="b525af02b6a2168839306955410ae98acd1be8e0"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="0f171cc733abb7d1b72f986cfb32bbc5ac26975a"/>
 		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="3c2d6ef8cac2da26416255ab96dafadf3edd2d87"/>
 		<Metadata name="Constant.Токен" id="bc199727-4265-4f97-936a-a97d24b0c9bb" configVersion="3bfd45d8686627a075c11f0aa4bd541e82b247c2"/>
 		<Metadata name="HTTPService.VKBot" id="743d9818-0bc3-470e-933a-2b46d5e457cb" configVersion="270c416f324c92211df9a9d1936c8c9410bbb382">
