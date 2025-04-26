@@ -65,6 +65,7 @@
 			<Language>Русский</Language>
 			<Subsystem>VK_Функции</Subsystem>
 			<CommonModule>VK</CommonModule>
+			<CommonModule>Клавиатура</CommonModule>
 			<HTTPService>VKBot</HTTPService>
 			<Constant>Токен</Constant>
 			<CommonForm>VK_AccessToken</CommonForm>
