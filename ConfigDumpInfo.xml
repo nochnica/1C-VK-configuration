@@ -4,9 +4,9 @@
 		<Metadata name="CommonForm.VK_AccessToken" id="5032892d-c997-4675-a216-24cc91bc6abb" configVersion="fb73eab103976797fd14ccaf556c1826dad278dc"/>
 		<Metadata name="CommonForm.VK_AccessToken.Form" id="5032892d-c997-4675-a216-24cc91bc6abb.0" configVersion="1ac946a49b0555fdd6acca075716948d516e9a60"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="e5edf8481a8cfda7b6382b0adf1587e5d1f2269e"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="631183360fc7f97166786a91da2e6e63cf2b30d1"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="af907b4fd1dcaeff1f5efb0d6fdbbd50f66f2de2"/>
 		<Metadata name="CommonModule.Клавиатура" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b" configVersion="10153ca9870f5ab1a54beb25b0374e6ebb3c734f"/>
-		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="e92bdeec36edf027d84a213e8a92baf3c2b220bf"/>
+		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="5894ede82f65b24c6c178c34432f01228b5cad8e"/>
 		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="3c12fef9535fa3a1852dbbd4f66960728cb0d490"/>
 		<Metadata name="Constant.Токен" id="bc199727-4265-4f97-936a-a97d24b0c9bb" configVersion="3bfd45d8686627a075c11f0aa4bd541e82b247c2"/>
 		<Metadata name="HTTPService.VKBot" id="743d9818-0bc3-470e-933a-2b46d5e457cb" configVersion="270c416f324c92211df9a9d1936c8c9410bbb382">
