@@ -118,8 +118,11 @@
 				Ответ.УстановитьТелоИзСтроки("ok", "UTF-8");         
 				Если Данные.Свойство("template") Тогда
 					message_send(random_id, peer_id, Данные.message, Неопределено, Данные.template); 
-				Иначе
+				    //message_send(random_id, peer_id, Данные.message); 
+				    	
+				ИначеЕсли Не Данные = Неопределено Тогда
 					message_send(random_id, peer_id, Данные.message, Данные.keyboard);
+				Иначе	
 				КонецЕсли;
 				//message_send(random_id, peer_id, Данные.message, Данные.keyboard);
 			Исключение   
@@ -136,7 +139,7 @@
 
 Функция message_send(random_id = Неопределено, peer_id = Неопределено, 
 					 message = Неопределено, keyboard = Неопределено, 
-					 template = Неопределено)
+					 template = Неопределено) Экспорт
 					  
 	parameters = Новый Массив;
 	Если НЕ random_id = Неопределено Тогда
@@ -188,7 +191,8 @@
                       "access_token=" + access_token + "&v=5.199";          
         HTTPЗапрос = Новый HTTPЗапрос;          
 		
-        HTTPЗапрос.АдресРесурса = ПолныйАдрес;
+        HTTPЗапрос.АдресРесурса = ПолныйАдрес;   
+		
 		
         РезультатЗапрос = СоединениеHTTP.Получить(HTTPЗапрос);
         СыроеТело = РезультатЗапрос.ПолучитьТелоКакСтроку();  
