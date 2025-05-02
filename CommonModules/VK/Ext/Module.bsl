@@ -6,6 +6,8 @@
 	Возврат "vk1.a.A64YqTgIedBRS3w2P5XGGYTwsEaDyijLMDDk3B4d7ONYOfQUf2FiJCASwICmK76txGaU92M7_504ozqjinb3Ofktz741cgiXEyNxymUYgI0OwKjjo11pjfL9LOjL6g1xIQW4MGfLdQPnYm2NfQWv1Lrgd-u4zPPxlEmNWVR-1D0ymb6MAw4Dl7VDNs89_ANCVSVk6IKK596Is0Yjaixxew";
 КонецФункции
 
+// Вернуть логи МОЖЕТ??
+
 #КонецОбласти
 
 
@@ -97,13 +99,16 @@
 	ИначеЕсли СтруктураДанных.Свойство("type") И СтруктураДанных.type = "message_new" Тогда
 	    // Если object на месте
 		Если СтруктураДанных.Свойство("object") Тогда  
+			
+			Ответ.УстановитьТелоИзСтроки("ok", "UTF-8");
+			
 			Попытка      
 				ОбъектСообщение = СтруктураДанных.object.message; 
 				Гсч = Новый ГенераторСлучайныхЧисел();
 				random_id = Формат(Гсч.СлучайноеЧисло(), "ЧРГ=''; ЧГ=0"); // В качестве рендом_ид лучше не использовать 0
 				peer_id   = Формат(ОбъектСообщение.peer_id, "ЧРГ=''; ЧГ=0");
 				from_id   = Формат(ОбъектСообщение.from_id, "ЧРГ=''; ЧГ=0");
-				
+								
 				Если ОбъектСообщение.Свойство("payload") Тогда
 					payload = ОбработатьJSON(ОбъектСообщение.payload);
 					Если payload.Свойство("button") Тогда
@@ -114,11 +119,10 @@
 				Иначе 
 					Данные = Клавиатура.СформироватьКлавиатуру();
 				КонецЕсли;
-				
-				Ответ.УстановитьТелоИзСтроки("ok", "UTF-8");         
+				         
 				Если Данные.Свойство("template") Тогда
 					message_send(random_id, peer_id, Данные.message, Неопределено, Данные.template); 
-				    //message_send(random_id, peer_id, Данные.message); 
+				    //message_send(random_id, peer_id, "Темплейт вообще передается или нет?"); 
 				    	
 				ИначеЕсли Не Данные = Неопределено Тогда
 					message_send(random_id, peer_id, Данные.message, Данные.keyboard);
@@ -159,8 +163,6 @@
 	Если НЕ message = Неопределено Тогда
 		parameters.Добавить("message=" + message);		
 	КонецЕсли; 
-		  
-	
 	
 	ОтправитьЗапросВВК(ПолучитьAccessToken(), "messages.send", parameters);
 	
@@ -178,7 +180,7 @@
     Попытка
         ssl = Новый ЗащищенноеСоединениеOpenSSL();
         // Исправлен порт на 443
-        СоединениеHTTP = Новый HTTPСоединение("api.vk.com", 443,,,, 60, ssl, Ложь);
+        СоединениеHTTP = Новый HTTPСоединение("api.vk.com", 443,,,, 180, ssl, Ложь);
         
         // Сформировать параметры строки
         ПараметрыМетода = "";  
