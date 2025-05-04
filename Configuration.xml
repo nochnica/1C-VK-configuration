@@ -70,6 +70,7 @@
 			<HTTPService>VKBot</HTTPService>
 			<Constant>Токен</Constant>
 			<CommonForm>VK_AccessToken</CommonForm>
+			<Catalog>ТоварыФотографии</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

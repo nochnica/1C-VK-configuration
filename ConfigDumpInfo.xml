@@ -1,24 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="Catalog.ТоварыФотографии" id="a29e8ef7-d527-4981-83a5-06e669838693" configVersion="82258239ada0ba2461249564ce201eb948d6aafb">
+			<Metadata name="Catalog.ТоварыФотографии.Attribute.Номенклатура" id="1d0d7a8b-6b75-4959-89c0-d97414c30dc1"/>
+			<Metadata name="Catalog.ТоварыФотографии.Attribute.Attachment" id="1f1215c5-56bf-43ff-adaf-d9c9913c086f"/>
+		</Metadata>
+		<Metadata name="Catalog.ТоварыФотографии.Form.ФормаЭлемента" id="9b4905f8-2b78-477d-9a26-19f6ebb4ebb4" configVersion="346174edbbdec86327388bb06dbc9ee642bad759"/>
+		<Metadata name="Catalog.ТоварыФотографии.Form.ФормаЭлемента.Form" id="9b4905f8-2b78-477d-9a26-19f6ebb4ebb4.0" configVersion="f01ec44347f6f27bfef7632a3c4466184aefd292"/>
 		<Metadata name="CommonForm.VK_AccessToken" id="5032892d-c997-4675-a216-24cc91bc6abb" configVersion="fb73eab103976797fd14ccaf556c1826dad278dc"/>
-		<Metadata name="CommonForm.VK_AccessToken.Form" id="5032892d-c997-4675-a216-24cc91bc6abb.0" configVersion="1ac946a49b0555fdd6acca075716948d516e9a60"/>
+		<Metadata name="CommonForm.VK_AccessToken.Form" id="5032892d-c997-4675-a216-24cc91bc6abb.0" configVersion="43adc6ed63ea2c8a803dd20b5ebde6aef38cdeb5"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="e5edf8481a8cfda7b6382b0adf1587e5d1f2269e"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="df11042cc6504c19ef68540b9cfc202daf4d2e61"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="ae88d93ebd574aa012200d46b4be5b90e019b0b8"/>
 		<Metadata name="CommonModule.Клавиатура" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b" configVersion="10153ca9870f5ab1a54beb25b0374e6ebb3c734f"/>
-		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="8130643a4b250dfa3eee04fab5a03da5664ba158"/>
+		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="1fed1c0d6fb0c0a38028fde7a7c6e4c6695050ba"/>
 		<Metadata name="CommonModule.Товары" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1" configVersion="62302b746132d70319f39295128078db70d644a5"/>
-		<Metadata name="CommonModule.Товары.Module" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1.0" configVersion="109363b3b904c2da19a0888e7ca90638922aa273"/>
-		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="600438cd2d5d4a8ed9b2a56ecce0a120d8784f88"/>
+		<Metadata name="CommonModule.Товары.Module" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1.0" configVersion="5e1639a0035696179285f353ca61bff8c94218c0"/>
+		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="e609baaac8aacff58f670e5ad09ecccad0ac9f1f"/>
 		<Metadata name="Constant.Токен" id="bc199727-4265-4f97-936a-a97d24b0c9bb" configVersion="3bfd45d8686627a075c11f0aa4bd541e82b247c2"/>
 		<Metadata name="HTTPService.VKBot" id="743d9818-0bc3-470e-933a-2b46d5e457cb" configVersion="270c416f324c92211df9a9d1936c8c9410bbb382">
 			<Metadata name="HTTPService.VKBot.URLTemplate.documents.Method.GET" id="26151a03-17eb-47b5-8fd0-6cdd3ed01fc7"/>
 			<Metadata name="HTTPService.VKBot.URLTemplate.documents.Method.POST" id="aeea7e2e-7d87-4e6d-8759-55eff8bab753"/>
 			<Metadata name="HTTPService.VKBot.URLTemplate.documents" id="dde8f4f0-2dc9-46ce-b4e8-b128a0f3e35c"/>
 		</Metadata>
-		<Metadata name="HTTPService.VKBot.Module" id="743d9818-0bc3-470e-933a-2b46d5e457cb.0" configVersion="b929325b8928bd7944c639c7d6ed2d0ba74e067b"/>
+		<Metadata name="HTTPService.VKBot.Module" id="743d9818-0bc3-470e-933a-2b46d5e457cb.0" configVersion="109ddadf0f0c9418afbbfe39926bf7991928c2c9"/>
 		<Metadata name="Language.Русский" id="175a1502-504b-4661-b74f-1d071f23e441" configVersion="c237179897407e41b56ee0678cc7015b003a0400"/>
-		<Metadata name="Subsystem.VK_Функции" id="9596aa99-af45-47fa-9768-988ad5215739" configVersion="e2b41171dbc9c2b917739eac2cce8129957e6fee"/>
-		<Metadata name="Subsystem.VK_Функции.CommandInterface" id="9596aa99-af45-47fa-9768-988ad5215739.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
+		<Metadata name="Subsystem.VK_Функции" id="9596aa99-af45-47fa-9768-988ad5215739" configVersion="79e2f84d655d6171015fb5e91c2c71b84b98e4e2"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
