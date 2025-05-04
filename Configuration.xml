@@ -67,6 +67,7 @@
 			<CommonModule>VK</CommonModule>
 			<CommonModule>Клавиатура</CommonModule>
 			<CommonModule>Товары</CommonModule>
+			<CommonModule>Заказы</CommonModule>
 			<HTTPService>VKBot</HTTPService>
 			<Constant>Токен</Constant>
 			<CommonForm>VK_AccessToken</CommonForm>

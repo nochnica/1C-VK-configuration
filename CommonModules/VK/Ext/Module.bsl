@@ -121,9 +121,7 @@
 				КонецЕсли;
 				         
 				Если Данные.Свойство("template") Тогда
-					message_send(random_id, peer_id, Данные.message, Неопределено, Данные.template); 
-				    //message_send(random_id, peer_id, Данные.template); 
-				    	
+					message_send(random_id, peer_id, Данные.message, Неопределено, Данные.template);      	
 				ИначеЕсли Не Данные = Неопределено Тогда
 					message_send(random_id, peer_id, Данные.message, Данные.keyboard);
 				Иначе	
@@ -133,6 +131,35 @@
 				Ответ.УстановитьТелоИзСтроки(ОписаниеОшибки(), "UTF-8");
 			КонецПопытки;
 		КонецЕсли;
+		
+	ИначеЕсли СтруктураДанных.Свойство("type") И СтруктураДанных.type = "message_event" Тогда
+	    // Если object на месте
+		Если СтруктураДанных.Свойство("object") Тогда  
+						
+			Попытка      
+				ОбъектСообщение = СтруктураДанных.object;     
+				
+				user_id   = Формат(ОбъектСообщение.user_id, "ЧРГ=''; ЧГ=0");
+				peer_id   = Формат(ОбъектСообщение.peer_id, "ЧРГ=''; ЧГ=0");
+				event_id  = Формат(ОбъектСообщение.event_id, "ЧРГ=''; ЧГ=0");
+				
+				Ответ.УстановитьТелоИзСтроки("ok", "UTF-8");
+				
+				Если ОбъектСообщение.Свойство("payload") Тогда
+					payload = ОбработатьJSON(ОбъектСообщение.payload);
+					Если payload.Свойство("button") Тогда
+						Заказы.ДобавитьВКорзину(payload.button, user_id);
+					Иначе
+					КонецЕсли; 
+				Иначе 
+				КонецЕсли;
+				
+				sendMessageEventAnswer(event_id, user_id, peer_id);
+				
+			Исключение   
+				Ответ.УстановитьТелоИзСтроки(ОписаниеОшибки(), "UTF-8");
+			КонецПопытки;
+		КонецЕсли;	
 		
 	КонецЕсли;
 КонецПроцедуры
@@ -166,6 +193,32 @@
 	
 	ОтправитьЗапросВВК(ПолучитьAccessToken(), "messages.send", parameters);
 	
+КонецФункции
+
+Функция sendMessageEventAnswer(event_id, user_id, peer_id)
+	parameters = Новый Массив;
+	Если НЕ event_id = Неопределено Тогда
+		parameters.Добавить("event_id=" + event_id);
+	КонецЕсли;
+	Если НЕ user_id = Неопределено Тогда
+		parameters.Добавить("user_id=" + user_id);		
+	КонецЕсли; 
+	Если НЕ peer_id = Неопределено Тогда
+		parameters.Добавить("peer_id=" + peer_id);
+		//message = template;
+	КонецЕсли;	
+	
+	event_data = Новый Структура;    
+    event_data.Вставить("type", "show_snackbar");
+    event_data.Вставить("text", "Товар добавлен в корзину!");
+	
+	event_dataJSON = СформироватьJSON(event_data);
+		
+	Если НЕ event_dataJSON = Неопределено Тогда
+		parameters.Добавить("event_data=" + event_dataJSON);		
+	КонецЕсли;
+	
+	ОтправитьЗапросВВК(ПолучитьAccessToken(), "messages.sendMessageEventAnswer", parameters);	 	
 КонецФункции
 
 #КонецОбласти
