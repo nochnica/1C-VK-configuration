@@ -15,9 +15,9 @@
 		<Metadata name="CommonForm.VK_AccessToken" id="5032892d-c997-4675-a216-24cc91bc6abb" configVersion="fb73eab103976797fd14ccaf556c1826dad278dc"/>
 		<Metadata name="CommonForm.VK_AccessToken.Form" id="5032892d-c997-4675-a216-24cc91bc6abb.0" configVersion="43adc6ed63ea2c8a803dd20b5ebde6aef38cdeb5"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="e5edf8481a8cfda7b6382b0adf1587e5d1f2269e"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="916783c8fd6892e3c44c2f639c4406cc9c59ce81"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="1d11b4ddb12f004b50f6a670628678f7b1879f4e"/>
 		<Metadata name="CommonModule.Заказы" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4" configVersion="7f028394967a579be9ed8ed62fd96576b56d816f"/>
-		<Metadata name="CommonModule.Заказы.Module" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4.0" configVersion="2a73f4b17d5f44fe4a13eca946fc59088f1072d7"/>
+		<Metadata name="CommonModule.Заказы.Module" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4.0" configVersion="d41a0670cb00eebc30c6b2b3234e4a1dca757044"/>
 		<Metadata name="CommonModule.Клавиатура" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b" configVersion="10153ca9870f5ab1a54beb25b0374e6ebb3c734f"/>
 		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="6378f85fb2b7a86902fb18c5794c9f98e1e0e8c9"/>
 		<Metadata name="CommonModule.Товары" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1" configVersion="62302b746132d70319f39295128078db70d644a5"/>
