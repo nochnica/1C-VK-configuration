@@ -72,6 +72,7 @@
 			<Constant>Токен</Constant>
 			<CommonForm>VK_AccessToken</CommonForm>
 			<Catalog>ТоварыФотографии</Catalog>
+			<Catalog>КорзинаПользователей</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -2,7 +2,7 @@
 #Область Переопределяемые 
 
 // Подумать над добавлением сюда константы
-Функция ПолучитьAccessToken()
+Функция ПолучитьAccessToken()   
 	Возврат "vk1.a.A64YqTgIedBRS3w2P5XGGYTwsEaDyijLMDDk3B4d7ONYOfQUf2FiJCASwICmK76txGaU92M7_504ozqjinb3Ofktz741cgiXEyNxymUYgI0OwKjjo11pjfL9LOjL6g1xIQW4MGfLdQPnYm2NfQWv1Lrgd-u4zPPxlEmNWVR-1D0ymb6MAw4Dl7VDNs89_ANCVSVk6IKK596Is0Yjaixxew";
 КонецФункции
 
@@ -112,7 +112,7 @@
 				Если ОбъектСообщение.Свойство("payload") Тогда
 					payload = ОбработатьJSON(ОбъектСообщение.payload);
 					Если payload.Свойство("button") Тогда
-						Данные = Клавиатура.СформироватьКлавиатуру(payload.button);
+						Данные = Клавиатура.СформироватьКлавиатуру(payload.button, from_id);
 					Иначе
 						Данные = Клавиатура.СформироватьКлавиатуру();
 					КонецЕсли; 
@@ -132,6 +132,7 @@
 			КонецПопытки;
 		КонецЕсли;
 		
+	// Если нажата callback-кнопка
 	ИначеЕсли СтруктураДанных.Свойство("type") И СтруктураДанных.type = "message_event" Тогда
 	    // Если object на месте
 		Если СтруктураДанных.Свойство("object") Тогда  
