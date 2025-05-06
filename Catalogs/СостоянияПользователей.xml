@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="a29e8ef7-d527-4981-83a5-06e669838693">
+	<Catalog uuid="7ea87059-479d-4938-9e40-b3d20193e1af">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ТоварыФотографии" category="Object">
-				<xr:TypeId>04cb7f33-5712-403b-b8ad-eac25babf569</xr:TypeId>
-				<xr:ValueId>e52445ff-deff-4420-9f59-d93fbace92dc</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.СостоянияПользователей" category="Object">
+				<xr:TypeId>b4df3240-2772-49ca-b1c1-6046d9b49b15</xr:TypeId>
+				<xr:ValueId>3124049a-2a9a-40a6-b2d0-d1530ca565ab</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ТоварыФотографии" category="Ref">
-				<xr:TypeId>523a83ac-7f49-4ea1-8e04-16b25aebaa42</xr:TypeId>
-				<xr:ValueId>31c0d08a-6942-4d62-a013-cf91fc4acf90</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.СостоянияПользователей" category="Ref">
+				<xr:TypeId>0a33ba3b-b684-4d5b-aae4-b7a9b816f216</xr:TypeId>
+				<xr:ValueId>c6174beb-8297-4e82-8c27-597f990e7432</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ТоварыФотографии" category="Selection">
-				<xr:TypeId>d78f2f20-7f01-40f7-a048-2841ffe9160e</xr:TypeId>
-				<xr:ValueId>9cf22810-d28c-4701-ab0e-48aad2c04067</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.СостоянияПользователей" category="Selection">
+				<xr:TypeId>6e01b252-396d-4b77-a076-60bad9c1d3c6</xr:TypeId>
+				<xr:ValueId>57650a3a-c3cb-4e03-9741-70aef1ab1e62</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ТоварыФотографии" category="List">
-				<xr:TypeId>84f2b27a-0d4d-44a3-a0a0-1f6826bd55bc</xr:TypeId>
-				<xr:ValueId>1f488cee-e30f-4bef-9d20-8bc1b685099d</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.СостоянияПользователей" category="List">
+				<xr:TypeId>e8480db3-a515-46f6-89ed-480b52e692f9</xr:TypeId>
+				<xr:ValueId>cac2892b-87c6-4f07-a9dd-0baa1485510b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ТоварыФотографии" category="Manager">
-				<xr:TypeId>4dcb2475-0268-4eaf-b040-6e436291df91</xr:TypeId>
-				<xr:ValueId>96068e9b-46f1-427f-9c05-c6f4b846bb22</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.СостоянияПользователей" category="Manager">
+				<xr:TypeId>fb0abca5-635a-4294-82bb-04d48cb20cba</xr:TypeId>
+				<xr:ValueId>dfa2772c-d0e4-4d31-9885-d36ff9fe7d88</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТоварыФотографии</Name>
+			<Name>СостоянияПользователей</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Фотографии товаров</v8:content>
+					<v8:content>Состояния пользователей</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -299,7 +299,7 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ТоварыФотографии.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.СостоянияПользователей.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -331,60 +331,20 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="1d0d7a8b-6b75-4959-89c0-d97414c30dc1">
+			<Attribute uuid="29ed4927-36ab-4870-b599-971ae46499b5">
 				<Properties>
-					<Name>Номенклатура</Name>
+					<Name>Пользователь</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="1f1215c5-56bf-43ff-adaf-d9c9913c086f">
-				<Properties>
-					<Name>Attachment</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Attachment</v8:content>
+							<v8:content>Пользователь</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
+							<v8:Length>9</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -415,7 +375,90 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Form>ФормаЭлемента</Form>
+			<Attribute uuid="b3024a86-ce91-4850-be6d-39180f9ed9af">
+				<Properties>
+					<Name>Email</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Email</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2d762ace-289a-488a-8149-992ae45e3d57">
+				<Properties>
+					<Name>Ожидаем</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ожидаем</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

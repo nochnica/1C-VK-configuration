@@ -73,6 +73,8 @@
 			<CommonForm>VK_AccessToken</CommonForm>
 			<Catalog>ТоварыФотографии</Catalog>
 			<Catalog>КорзинаПользователей</Catalog>
+			<Catalog>ЗаказыПользователей</Catalog>
+			<Catalog>СостоянияПользователей</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

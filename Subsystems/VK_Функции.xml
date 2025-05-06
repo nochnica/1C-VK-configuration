@@ -20,6 +20,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.Токен</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТоварыФотографии</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КорзинаПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЗаказыПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СостоянияПользователей</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
