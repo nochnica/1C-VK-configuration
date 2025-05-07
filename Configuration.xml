@@ -66,15 +66,16 @@
 			<Subsystem>VK_Функции</Subsystem>
 			<CommonModule>VK</CommonModule>
 			<CommonModule>Клавиатура</CommonModule>
-			<CommonModule>Товары</CommonModule>
+			<CommonModule>Каталог</CommonModule>
 			<CommonModule>Заказы</CommonModule>
+			<CommonModule>Скрипты</CommonModule>
 			<HTTPService>VKBot</HTTPService>
 			<Constant>Токен</Constant>
 			<CommonForm>VK_AccessToken</CommonForm>
 			<Catalog>ТоварыФотографии</Catalog>
 			<Catalog>КорзинаПользователей</Catalog>
-			<Catalog>ЗаказыПользователей</Catalog>
 			<Catalog>СостоянияПользователей</Catalog>
+			<Document>ЗаказыПользователейВК</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
