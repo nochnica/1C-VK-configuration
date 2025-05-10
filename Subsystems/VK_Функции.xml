@@ -20,9 +20,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.Токен</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТоварыФотографии</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КорзинаПользователей</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">419cd38d-3a10-4ed9-a637-05af815abf5a</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СостоянияПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказыПользователейВК</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">bc49ed8b-ef4d-4ea0-a921-35b5790d4611</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
