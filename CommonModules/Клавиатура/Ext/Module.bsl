@@ -30,7 +30,7 @@
 				message = "Спасибо, мы свяжемся с вами по email!";
 				СостоянияEmail.ОжиданиеEmail(from_id, msg);
 			ИначеЕсли Не ПолученВалидныйEmail Тогда
-				message = "Некорректный email!";
+				message = "Некорректный email! Email должен быть вида name@domain.tld.";
 			КонецЕсли;
         КонецЕсли;
 			
