@@ -20,14 +20,20 @@
 		<Metadata name="CommonForm.VK_AccessToken" id="5032892d-c997-4675-a216-24cc91bc6abb" configVersion="fb73eab103976797fd14ccaf556c1826dad278dc"/>
 		<Metadata name="CommonForm.VK_AccessToken.Form" id="5032892d-c997-4675-a216-24cc91bc6abb.0" configVersion="43adc6ed63ea2c8a803dd20b5ebde6aef38cdeb5"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="e5edf8481a8cfda7b6382b0adf1587e5d1f2269e"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="c434decfc7a3e91217cb6a4d675a90f1a681d853"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="14554718cc6fec0d65c8c6eb5ca69461b77f616b"/>
 		<Metadata name="CommonModule.Заказы" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4" configVersion="7f028394967a579be9ed8ed62fd96576b56d816f"/>
-		<Metadata name="CommonModule.Заказы.Module" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4.0" configVersion="61e6ac46a793964c9708d21d1324080cf822226b"/>
+		<Metadata name="CommonModule.Заказы.Module" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4.0" configVersion="3a783e76b53f193bb0f95c2997e5961f9bfd64cd"/>
 		<Metadata name="CommonModule.Каталог" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1" configVersion="30bca27930373bf58663859977287db84bc2955b"/>
-		<Metadata name="CommonModule.Каталог.Module" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1.0" configVersion="512c2cbdafdb1466d8e6920871a6a010384def7c"/>
+		<Metadata name="CommonModule.Каталог.Module" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1.0" configVersion="26b0375988ff90e6ef9e33345b71817f146cc1aa"/>
 		<Metadata name="CommonModule.Клавиатура" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b" configVersion="10153ca9870f5ab1a54beb25b0374e6ebb3c734f"/>
-		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="3cd827389a1e33a9a5608afcff17d4d8f13cb30f"/>
-		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="c76fa5f7194a18a56c467969281affaad9272521"/>
+		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="5b75fb0a7c3529e95d26e46af686fd19a0f92150"/>
+		<Metadata name="CommonModule.Корзина" id="c9ea88db-7dd6-411e-9d67-7d6db43bbfac" configVersion="b63d7e8c72dfc75745223c0e6f9513445c77ad24"/>
+		<Metadata name="CommonModule.Корзина.Module" id="c9ea88db-7dd6-411e-9d67-7d6db43bbfac.0" configVersion="7b05fc6cd44cef4a28259a19de8079bb859ea208"/>
+		<Metadata name="CommonModule.СостоянияEmail" id="74f27168-3e24-46ab-83ca-a94d5f2af408" configVersion="94c127b793a9ce32e8d0c67337e92f8e38e78626"/>
+		<Metadata name="CommonModule.СостоянияEmail.Module" id="74f27168-3e24-46ab-83ca-a94d5f2af408.0" configVersion="6ed3ab7f42709550a02df5bbcc7eb2a173eb31c8"/>
+		<Metadata name="CommonModule.ФункцииJSON" id="ede4e078-04b7-4ce0-b677-dba273cbf11f" configVersion="7c60ea374a7bf9e3a760b45dd3ba184c08f622d0"/>
+		<Metadata name="CommonModule.ФункцииJSON.Module" id="ede4e078-04b7-4ce0-b677-dba273cbf11f.0" configVersion="3c538eaf7fd6b936c584ff201bfcfe4ae16f38a5"/>
+		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="a78ab8bf3af722edbd04c634e820a8e212ce4cb5"/>
 		<Metadata name="Constant.Токен" id="bc199727-4265-4f97-936a-a97d24b0c9bb" configVersion="3bfd45d8686627a075c11f0aa4bd541e82b247c2"/>
 		<Metadata name="Document.ЗаказыПользователейВК" id="2d5910fb-a5dc-4336-8d3d-cfcf5b03ea54" configVersion="d8d963561bd054fc9ea64ef032284115580e1408">
 			<Metadata name="Document.ЗаказыПользователейВК.Attribute.UserID" id="0a6f6c03-da70-486d-b020-d382d12d1887"/>
