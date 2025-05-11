@@ -22,7 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КорзинаПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СостоянияПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказыПользователейВК</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">bc49ed8b-ef4d-4ea0-a921-35b5790d4611</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыНоменклатурыДляБота</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

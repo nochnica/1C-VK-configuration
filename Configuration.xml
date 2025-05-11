@@ -77,6 +77,7 @@
 			<Catalog>ТоварыФотографии</Catalog>
 			<Catalog>КорзинаПользователей</Catalog>
 			<Catalog>СостоянияПользователей</Catalog>
+			<Catalog>ВидыНоменклатурыДляБота</Catalog>
 			<Document>ЗаказыПользователейВК</Document>
 		</ChildObjects>
 	</Configuration>

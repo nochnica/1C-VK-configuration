@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="Catalog.ВидыНоменклатурыДляБота" id="1c05f695-c858-4339-bade-e70986848098" configVersion="7719676403d9855fff997e2f15b3c63b053dd462">
+			<Metadata name="Catalog.ВидыНоменклатурыДляБота.Attribute.ВидНоменклатуры" id="fd4cb7b5-4310-48e6-bc19-45f3adb3f4c4"/>
+		</Metadata>
 		<Metadata name="Catalog.КорзинаПользователей" id="a34103f7-a0f2-4a5e-9b78-c09c0a61eacb" configVersion="9295d9081095649c927f2c28097085c0f7da0e98">
 			<Metadata name="Catalog.КорзинаПользователей.Attribute.Пользователь" id="57cfd5e8-ffc9-47b6-af48-dd8b55561570"/>
 			<Metadata name="Catalog.КорзинаПользователей.Attribute.Количество" id="8d5ae302-18f4-4166-b5a5-88a2380367d1"/>
@@ -20,20 +23,20 @@
 		<Metadata name="CommonForm.VK_AccessToken" id="5032892d-c997-4675-a216-24cc91bc6abb" configVersion="fb73eab103976797fd14ccaf556c1826dad278dc"/>
 		<Metadata name="CommonForm.VK_AccessToken.Form" id="5032892d-c997-4675-a216-24cc91bc6abb.0" configVersion="43adc6ed63ea2c8a803dd20b5ebde6aef38cdeb5"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="e5edf8481a8cfda7b6382b0adf1587e5d1f2269e"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="c5e33b1054892c10795ef8cb19caa7de2ade0776"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="c33aec89b06fe08cc37168c8a3bca7d3b4bddc73"/>
 		<Metadata name="CommonModule.Заказы" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4" configVersion="7f028394967a579be9ed8ed62fd96576b56d816f"/>
 		<Metadata name="CommonModule.Заказы.Module" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4.0" configVersion="3a783e76b53f193bb0f95c2997e5961f9bfd64cd"/>
 		<Metadata name="CommonModule.Каталог" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1" configVersion="30bca27930373bf58663859977287db84bc2955b"/>
-		<Metadata name="CommonModule.Каталог.Module" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1.0" configVersion="c65f15507ea9efa0fe70713e9d1c0bc3f4f10888"/>
+		<Metadata name="CommonModule.Каталог.Module" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1.0" configVersion="389be60d6527d9d4d0c9c893a284ab865cfa147a"/>
 		<Metadata name="CommonModule.Клавиатура" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b" configVersion="10153ca9870f5ab1a54beb25b0374e6ebb3c734f"/>
-		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="3cbf265827b9d4b99ce19f981d2504cc4b0c826d"/>
+		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="6bc7615bc4eb9b735a69a42f9ed96098b35169a3"/>
 		<Metadata name="CommonModule.Корзина" id="c9ea88db-7dd6-411e-9d67-7d6db43bbfac" configVersion="b63d7e8c72dfc75745223c0e6f9513445c77ad24"/>
 		<Metadata name="CommonModule.Корзина.Module" id="c9ea88db-7dd6-411e-9d67-7d6db43bbfac.0" configVersion="7b05fc6cd44cef4a28259a19de8079bb859ea208"/>
 		<Metadata name="CommonModule.СостоянияEmail" id="74f27168-3e24-46ab-83ca-a94d5f2af408" configVersion="94c127b793a9ce32e8d0c67337e92f8e38e78626"/>
 		<Metadata name="CommonModule.СостоянияEmail.Module" id="74f27168-3e24-46ab-83ca-a94d5f2af408.0" configVersion="6ed3ab7f42709550a02df5bbcc7eb2a173eb31c8"/>
 		<Metadata name="CommonModule.ФункцииJSON" id="ede4e078-04b7-4ce0-b677-dba273cbf11f" configVersion="7c60ea374a7bf9e3a760b45dd3ba184c08f622d0"/>
 		<Metadata name="CommonModule.ФункцииJSON.Module" id="ede4e078-04b7-4ce0-b677-dba273cbf11f.0" configVersion="3c538eaf7fd6b936c584ff201bfcfe4ae16f38a5"/>
-		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="a78ab8bf3af722edbd04c634e820a8e212ce4cb5"/>
+		<Metadata name="Configuration.VK_БОТ" id="810671dc-5e7e-442b-a682-663057923e38" configVersion="39e9928980cff220344be191d2180ded41417651"/>
 		<Metadata name="Constant.Токен" id="bc199727-4265-4f97-936a-a97d24b0c9bb" configVersion="3bfd45d8686627a075c11f0aa4bd541e82b247c2"/>
 		<Metadata name="Document.ЗаказыПользователейВК" id="2d5910fb-a5dc-4336-8d3d-cfcf5b03ea54" configVersion="d8d963561bd054fc9ea64ef032284115580e1408">
 			<Metadata name="Document.ЗаказыПользователейВК.Attribute.UserID" id="0a6f6c03-da70-486d-b020-d382d12d1887"/>
@@ -52,6 +55,6 @@
 		</Metadata>
 		<Metadata name="HTTPService.VKBot.Module" id="743d9818-0bc3-470e-933a-2b46d5e457cb.0" configVersion="109ddadf0f0c9418afbbfe39926bf7991928c2c9"/>
 		<Metadata name="Language.Русский" id="175a1502-504b-4661-b74f-1d071f23e441" configVersion="c237179897407e41b56ee0678cc7015b003a0400"/>
-		<Metadata name="Subsystem.VK_Функции" id="9596aa99-af45-47fa-9768-988ad5215739" configVersion="fcdd6c3c2cb450a96d63967b286e487a94245df9"/>
+		<Metadata name="Subsystem.VK_Функции" id="9596aa99-af45-47fa-9768-988ad5215739" configVersion="8276521780ca30e792a63d40cbbbdd23fd621530"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
