@@ -25,7 +25,7 @@
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="e5edf8481a8cfda7b6382b0adf1587e5d1f2269e"/>
 		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="c33aec89b06fe08cc37168c8a3bca7d3b4bddc73"/>
 		<Metadata name="CommonModule.Заказы" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4" configVersion="7f028394967a579be9ed8ed62fd96576b56d816f"/>
-		<Metadata name="CommonModule.Заказы.Module" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4.0" configVersion="3a783e76b53f193bb0f95c2997e5961f9bfd64cd"/>
+		<Metadata name="CommonModule.Заказы.Module" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4.0" configVersion="5053120ddf35478b31d6fb4ce99c05de7dbccee3"/>
 		<Metadata name="CommonModule.Каталог" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1" configVersion="30bca27930373bf58663859977287db84bc2955b"/>
 		<Metadata name="CommonModule.Каталог.Module" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1.0" configVersion="389be60d6527d9d4d0c9c893a284ab865cfa147a"/>
 		<Metadata name="CommonModule.Клавиатура" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b" configVersion="10153ca9870f5ab1a54beb25b0374e6ebb3c734f"/>
