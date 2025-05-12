@@ -23,6 +23,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СостоянияПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказыПользователейВК</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыНоменклатурыДляБота</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.VK_ФормаКонстант</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -73,7 +73,10 @@
 			<CommonModule>ФункцииJSON</CommonModule>
 			<HTTPService>VKBot</HTTPService>
 			<Constant>Токен</Constant>
+			<Constant>ТекстПриветствия</Constant>
+			<Constant>ТекстFAQ</Constant>
 			<CommonForm>VK_AccessToken</CommonForm>
+			<CommonForm>VK_ФормаКонстант</CommonForm>
 			<Catalog>ТоварыФотографии</Catalog>
 			<Catalog>КорзинаПользователей</Catalog>
 			<Catalog>СостоянияПользователей</Catalog>
