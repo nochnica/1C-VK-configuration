@@ -6,7 +6,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>VK функции</v8:content>
+					<v8:content>Работа с ботом ВКонтакте</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -20,7 +20,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.Токен</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТоварыФотографии</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КорзинаПользователей</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СостоянияПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказыПользователейВК</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВидыНоменклатурыДляБота</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.VK_ФормаКонстант</xr:Item>

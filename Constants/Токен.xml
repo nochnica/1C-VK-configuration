@@ -35,7 +35,7 @@
 			<DefaultForm>CommonForm.VK_AccessToken</DefaultForm>
 			<ExtendedPresentation/>
 			<Explanation/>
-			<PasswordMode>false</PasswordMode>
+			<PasswordMode>true</PasswordMode>
 			<Format/>
 			<EditFormat/>
 			<ToolTip/>
