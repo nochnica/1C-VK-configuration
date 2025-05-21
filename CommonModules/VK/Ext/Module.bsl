@@ -104,6 +104,7 @@
 					КонецЦикла;
 				ИначеЕсли Не Данные = Неопределено Тогда
 					message_send(random_id, peer_id, Данные.message, Данные.keyboard);
+					//message_send(random_id, peer_id, Данные.keyboard);
 				Иначе	
 				КонецЕсли;
 				//message_send(random_id, peer_id, Данные.message, Данные.keyboard);

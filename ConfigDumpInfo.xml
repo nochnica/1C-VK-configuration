@@ -25,13 +25,13 @@
 		<Metadata name="CommonForm.VK_ФормаКонстант" id="fdd00b00-4e29-4a02-8cda-069f630d0a51" configVersion="0da3f136bc657d1de72bc1e54d63eb8737350a0b"/>
 		<Metadata name="CommonForm.VK_ФормаКонстант.Form" id="fdd00b00-4e29-4a02-8cda-069f630d0a51.0" configVersion="c9deccde2c8b2823c58c0ef179cac985e3c2e59f"/>
 		<Metadata name="CommonModule.VK" id="1d642666-ffb2-40b5-84be-b4dd01737e5b" configVersion="e5edf8481a8cfda7b6382b0adf1587e5d1f2269e"/>
-		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="c33aec89b06fe08cc37168c8a3bca7d3b4bddc73"/>
+		<Metadata name="CommonModule.VK.Module" id="1d642666-ffb2-40b5-84be-b4dd01737e5b.0" configVersion="0c326bcf705f50c0b7f811d4230ed52f3a9892f8"/>
 		<Metadata name="CommonModule.Заказы" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4" configVersion="7f028394967a579be9ed8ed62fd96576b56d816f"/>
-		<Metadata name="CommonModule.Заказы.Module" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4.0" configVersion="d80a1807c9594d0f4fa205e1ffa2a4d3e396d9d8"/>
+		<Metadata name="CommonModule.Заказы.Module" id="3e5ed01c-9fe8-4513-9b7e-09d32c9e5af4.0" configVersion="a584b8c2910413ddae3af29bd01166ae02005ab6"/>
 		<Metadata name="CommonModule.Каталог" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1" configVersion="30bca27930373bf58663859977287db84bc2955b"/>
 		<Metadata name="CommonModule.Каталог.Module" id="7ca90d2b-f305-44b7-9e76-537b745a4cb1.0" configVersion="a25423db67c437a41261431c8dc47d10026dbdb5"/>
 		<Metadata name="CommonModule.Клавиатура" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b" configVersion="10153ca9870f5ab1a54beb25b0374e6ebb3c734f"/>
-		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="528ccef8f742934d16e23670142e5254660d95e1"/>
+		<Metadata name="CommonModule.Клавиатура.Module" id="834f7fe9-1b85-4d50-b0ab-0ce77c36432b.0" configVersion="44313632c00c48331a33232105856e46efc4c9b3"/>
 		<Metadata name="CommonModule.Корзина" id="c9ea88db-7dd6-411e-9d67-7d6db43bbfac" configVersion="b63d7e8c72dfc75745223c0e6f9513445c77ad24"/>
 		<Metadata name="CommonModule.Корзина.Module" id="c9ea88db-7dd6-411e-9d67-7d6db43bbfac.0" configVersion="7b05fc6cd44cef4a28259a19de8079bb859ea208"/>
 		<Metadata name="CommonModule.СостоянияEmail" id="74f27168-3e24-46ab-83ca-a94d5f2af408" configVersion="94c127b793a9ce32e8d0c67337e92f8e38e78626"/>
@@ -42,16 +42,23 @@
 		<Metadata name="Constant.ТекстFAQ" id="3c482c05-5e19-4c74-8425-1b0b29988b1a" configVersion="e75b04acc7683e6a57dafaa0b9dae3a70a902482"/>
 		<Metadata name="Constant.ТекстПриветствия" id="6f40334e-7fc0-430f-b963-c71958d1731f" configVersion="d64b776b06661556333ccd21a4b6480d88c80607"/>
 		<Metadata name="Constant.Токен" id="bc199727-4265-4f97-936a-a97d24b0c9bb" configVersion="b4404d5abfb265454bafda4dfcfecadece33c0e9"/>
-		<Metadata name="Document.ЗаказыПользователейВК" id="2d5910fb-a5dc-4336-8d3d-cfcf5b03ea54" configVersion="d8d963561bd054fc9ea64ef032284115580e1408">
+		<Metadata name="Document.ЗаказыПользователейВК" id="2d5910fb-a5dc-4336-8d3d-cfcf5b03ea54" configVersion="eb3cd59ab35044b96a46b7a45a13594ecd82270b">
 			<Metadata name="Document.ЗаказыПользователейВК.Attribute.UserID" id="0a6f6c03-da70-486d-b020-d382d12d1887"/>
 			<Metadata name="Document.ЗаказыПользователейВК.TabularSection.СоставЗаказа.Attribute.Цена" id="19da0198-8ac9-4c58-8779-7f3cdade11b5"/>
 			<Metadata name="Document.ЗаказыПользователейВК.Attribute.Email" id="61c5292f-ed8e-40cc-87a3-1e04d8462df3"/>
 			<Metadata name="Document.ЗаказыПользователейВК.TabularSection.СоставЗаказа" id="64a48c64-d891-45f5-b0c1-bcbd1d733747"/>
 			<Metadata name="Document.ЗаказыПользователейВК.TabularSection.СоставЗаказа.Attribute.Номенклатура" id="6a1819c4-448e-4ef7-9e16-db879ca8ad45"/>
 			<Metadata name="Document.ЗаказыПользователейВК.TabularSection.СоставЗаказа.Attribute.Сумма" id="796bc4d6-1fb4-42d1-9ce7-f4df2cde8f7d"/>
+			<Metadata name="Document.ЗаказыПользователейВК.Attribute.ОбщаяСумма" id="8f6888a0-c718-46b9-8925-62f6aa23ebf2"/>
 			<Metadata name="Document.ЗаказыПользователейВК.Attribute.Статус" id="92cf20fe-effa-4e26-bc8e-e38cbc5f0d64"/>
 			<Metadata name="Document.ЗаказыПользователейВК.TabularSection.СоставЗаказа.Attribute.Количество" id="e329fd54-30ad-457b-a420-624c9813db61"/>
 		</Metadata>
+		<Metadata name="Document.ЗаказыПользователейВК.Form.ФормаВыставитьСчетНаОплату" id="acde6030-cab7-4f70-92f2-2492b16b0298" configVersion="40756cfc56d2096374e688bea4a5c1d948b36903"/>
+		<Metadata name="Document.ЗаказыПользователейВК.Form.ФормаВыставитьСчетНаОплату.Form" id="acde6030-cab7-4f70-92f2-2492b16b0298.0" configVersion="050147edea062a50580d43c8f0a4d8a4975b6c00"/>
+		<Metadata name="Document.ЗаказыПользователейВК.Form.ФормаДокумента" id="7c608990-9b57-4449-a402-f6ff2e685853" configVersion="95d5e0c2800af0384e3039a63ac3fab1f25a8fa7"/>
+		<Metadata name="Document.ЗаказыПользователейВК.Form.ФормаДокумента.Form" id="7c608990-9b57-4449-a402-f6ff2e685853.0" configVersion="8053c942329e335d8f4ec99fb6487bdadce63ebc"/>
+		<Metadata name="Document.ЗаказыПользователейВК.Form.ФормаСписка" id="c9eeebdf-bf74-4430-a4ad-fe10f915639b" configVersion="14d12012b3e41dd591bb829ef3029692a9f14601"/>
+		<Metadata name="Document.ЗаказыПользователейВК.Form.ФормаСписка.Form" id="c9eeebdf-bf74-4430-a4ad-fe10f915639b.0" configVersion="206fefc0daaa918f6e3533e33d9df044970b844f"/>
 		<Metadata name="HTTPService.VKBot" id="743d9818-0bc3-470e-933a-2b46d5e457cb" configVersion="270c416f324c92211df9a9d1936c8c9410bbb382">
 			<Metadata name="HTTPService.VKBot.URLTemplate.documents.Method.GET" id="26151a03-17eb-47b5-8fd0-6cdd3ed01fc7"/>
 			<Metadata name="HTTPService.VKBot.URLTemplate.documents.Method.POST" id="aeea7e2e-7d87-4e6d-8759-55eff8bab753"/>
